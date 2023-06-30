@@ -9,6 +9,8 @@ public class PasswordGenerator
 	  int length=sc.nextInt();
 	  
       System.out.println(generatePassword(length));
+
+      sc.close();
    }
 
    private static char[] generatePassword(int length) {
